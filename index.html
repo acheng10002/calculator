@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="pageTitle">Calculator</h1>
+        <!-- basic HTML calculator with buttons for each digit, each of the calculator
+             functions, and an "equals" key -->
+        <div class="largerContainer">
+            <div class="displayContainer">
+                <p class="display"></p>
+            </div>
+        </div>
+        <div id="columnsContainer">
+            <div class="column">
+            <button class="operatePart">7</button>
+            <button class="operatePart">4</button>
+            <button class="operatePart">1</button>
+            <button class="operatePart">0</button>
+            </div>
+            <div class="column">
+                <button class="operatePart">8</button>
+                <button class="operatePart">5</button>
+                <button class="operatePart">2</button>
+                <button id="clear">C</button>
+            </div>
+            <div class="column">
+                <button class="operatePart">9</button>
+                <button class="operatePart">6</button>
+                <button class="operatePart">3</button>
+                <button id="equals">=</button>
+            </div>
+            <div class="column">
+                <button class="operatePart">+</button>
+                <button class="operatePart">-</button>
+                <button class="operatePart">*</button>
+                <button class="operatePart">/</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+
+#pageTitle {
+    text-align: center;
+    font-size: 60px;
+}
+
+#columnsContainer {
+    display: flex;
+    flex: 1 1 410px;
+    height: 410px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    font-size: 50px;
+    height: 90px;
+    width: 90px;
+    margin: 7px;
+
+}
+
+.largerContainer {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.displayContainer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border: 1px solid black;
+    height: 100px;
+    width: 402px;
+    overflow: hidden;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 40px;
+}
